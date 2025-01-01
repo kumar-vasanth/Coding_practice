@@ -29,6 +29,30 @@ public class ReverseString {
      System.out.println(rev);
      
      
+     String lp="vasanth";
+     String rev1="";
+     for(int i=lp.length()-1;i>=0;i--)
+     {
+    	 rev1=rev1+lp.charAt(i);
+     }
+     
+     System.out.println("Reversed string is:  "+ rev1);
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
      
 	}
 }

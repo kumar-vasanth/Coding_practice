@@ -34,6 +34,29 @@ public class ReverseNumber {
 		System.out.println("the reversed number is: "+rev);
 		
 		
-	}
+
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }
