@@ -13,7 +13,6 @@ public class ArrayEvenOdd {
 			{
 				System.out.println("Number is even");
 			}
-			
 		}
 		System.out.println("Extractoing odd numbers");
 		for(int i=0;i<a.length;i++)

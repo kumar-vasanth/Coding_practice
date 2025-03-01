@@ -9,9 +9,13 @@ public class ArrayDuplicateElement {
 	public static void main(String[] args) {
 		String ar[] = { "Eng", "Tel", "Beng", "Eng","Te" };
 		boolean flag = false;
-		for (int i = 0; i < ar.length; i++) {
-			for (int j = i + 1; j < ar.length; j++) {
-				if (ar[i] == ar[j]) {
+		for (int i = 0; i < ar.length; i++) 
+		{
+			
+			for (int j = i + 1; j < ar.length; j++)
+			{
+				if (ar[i] == ar[j])
+				{
 					System.out.println("Found the duplicate element: " + ar[i]);
 					flag = true;
 				}

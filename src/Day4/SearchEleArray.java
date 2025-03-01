@@ -27,6 +27,51 @@ public class SearchEleArray {
 			System.out.println("searching element not found in the array");
 		}
 
+		
+		
+		int searchNum=44;
+		int [] ar= {10,24,44,23,67,78};
+		boolean set1=false;
+		
+		for(int i =0;i<ar.length;i++)
+		{
+			if(searchNum==ar[i])
+			{
+				set1=true;
+				System.out.println("Element found in the array");
+				break;
+			}
+		}
+		
+		
+		if(set1==false)
+		{
+			System.out.println("element not found in the array");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
