@@ -10,6 +10,8 @@ public class Factorial {
 		
 		int num=4;
 		int fact=1;
+		int largest=Integer.MIN_VALUE;
+		
 		for(int i=1;i<=num;i++)
 			
 		{

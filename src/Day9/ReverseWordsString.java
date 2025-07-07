@@ -12,7 +12,7 @@ public class ReverseWordsString {
 		for(int i=sr.length-1; i>=0;i--)
 		
 		{
-			reverse=reverse+sr[i];
+			reverse=reverse+" "+sr[i];
 			
 		}
 		

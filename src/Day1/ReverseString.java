@@ -28,6 +28,12 @@ public class ReverseString {
      
      System.out.println(rev);
      
+		if (st.equals(rev)) {
+			System.out.println("String is palindrome");
+		} else {
+			System.out.println("String is not palindrome");
+		}
+     
      
      String lp="vasanth";
      String rev1="";

@@ -9,7 +9,7 @@ public class FibanocciSeries {
 		
 		int n1=0;
 		int n2=1;
-		{
+		
 			for(int i=1;i<10;i++)
 			{
 				int sum=n1+n2;
@@ -17,7 +17,7 @@ public class FibanocciSeries {
 				n1=n2;
 				n2=sum;
 			}
-		}
+		
 
 	}
 
