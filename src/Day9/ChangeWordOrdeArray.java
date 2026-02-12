@@ -5,11 +5,11 @@ public class ChangeWordOrdeArray {
 	// convert the string to the array and apply for loop to read the each word
 
 	public static void main(String[] args) {
-		
-		String d1="put the basket ";
-		String d2="Put the ";
-		Boolean c=d1.equalsIgnoreCase(d2);
-		d1=d1.replace("bas", "ball");
+
+		String d1 = "put the basket ";
+		String d2 = "Put the ";
+		Boolean c = d1.equalsIgnoreCase(d2);
+		d1 = d1.replace("bas", "ball");
 		System.out.println(d1);
 
 		String st = " Try to reverse the words";

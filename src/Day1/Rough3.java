@@ -47,6 +47,14 @@ public class Rough3 {
 		
 		
 		
+		int lp=2378;
+		int rev9=0;
+		while(n>0)
+		{
+			rev9=rev9+lp%10;
+			lp=lp/10;
+			
+		}
 		
 		
 		

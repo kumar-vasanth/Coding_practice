@@ -17,6 +17,11 @@ public class CountCharOccurences {
 		}
 		
 		System.out.println(c);
+		
+		
+		
+		//// next way 
+		
 		 String va = "professorroe";
 	        char reqChar1 = 'r';
 	        int count1 = 1;
